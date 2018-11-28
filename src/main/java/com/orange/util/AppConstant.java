@@ -4,7 +4,8 @@ public interface AppConstant {
 
 	String ORANGEHRM_LOGIN_URL = "https://opensource-demo.orangehrmlive.com/";
 	
-	public enum BrowserTypes{
+	public enum BrowserTypes{ 
+		//Predefined constants, will showcase compile errors instead of runtime
 		FIREFOX,
 		CHROME,
 		IE,
@@ -13,4 +14,7 @@ public interface AppConstant {
 		OPERA
 	}
 	
+	
+	
 }
+

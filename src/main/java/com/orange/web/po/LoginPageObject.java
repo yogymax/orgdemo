@@ -6,6 +6,16 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.orange.util.BrowserUtil;
 
+/**
+ * Pageobject -- Object for an page which defines it's states(properties --webelements) and
+ * and behaviours(function/methods)
+ *
+ *@findby-- bind webelement with single criteria/locator
+ *@findbys-- bind webelement with all critrias criteria/locator (and)
+ *@findAll-- bind webelement with atleast one criteria/locator (or)
+ *
+ */
+
 public class LoginPageObject {
 
 	@FindBy(id="txtUsername")
